@@ -1,0 +1,311 @@
+html {
+	background-color: #3498DB;
+}
+
+.CreateCharacter {
+	display: inline-block;
+	position: fixed;
+	font-family: '8BIT WONDER';
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -225px;
+}
+
+#Creators {
+	position: fixed;
+	top: 75%;
+	left: 88%;
+}
+
+#equipment-tab {
+	font-family: '8BIT WONDER';
+	background-color: black;
+	border: 2px solid;
+	position: fixed;
+	right: 0%;
+	height: auto;
+	max-height: 100%;
+	width: 300px;
+	margin-right: 10px;
+	border-radius: 25px;
+	font-size : 10px ;
+}
+
+#equipment-tab .equipment {
+	font-size : 12px;
+	display : inline-grid ;
+	padding-top : 20px;
+	padding-bottom : 20px;
+}
+
+#ItemWindow {
+	font-family: '8BIT WONDER';
+	background-color: black;
+	border: 2px solid;
+	position: fixed;
+	right: 0%;
+	height: auto;
+	max-height: 100%;
+	width: 300px;
+	margin-right: 10px;
+	border-radius: 25px;
+ }
+
+#food-item {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+	float: left;
+}
+
+#food-item .button {
+	font-family: '8BIT WONDER';
+	font-size : 10px;
+	width: 125px ;
+}
+
+#weapon-item {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#weapon-item .button {
+	font-family: '8BIT WONDER';
+	font-size : 10px;
+	width: 125px;
+}
+
+#armor-item {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#armor-item .button {
+	font-family: '8BIT WONDER';
+	font-size: 10px;
+	width: 125px;
+}
+
+#bread {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#bread .button {
+	font-family: '8BIT WONDER';
+	font-size: 10px;
+	width: 125px;
+}
+
+#fish {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#fish .button {
+	font-family: '8BIT WONDER';
+	font-size: 10px;
+	width: 125px;
+}
+
+#explosives {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#explosives .button {
+	font-family: '8BIT WONDER';
+	font-size: 10px;
+	width: 125px;
+}
+
+#detonator {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#detonator .button {
+	font-family: '8BIT WONDER';
+	font-size: 10px;
+	width: 125px;
+}
+
+#record {
+	font-size: 5px;
+	height: 125px;
+	width: 125px;
+	display: inline-grid;
+}
+
+#record .button {
+	font-family: '8BIT WONDER';
+	font-size: 10px;
+	width: 125px;
+}
+
+.view {
+	visibility: visible;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+
+#blinker {
+	text-align: center;
+	font-size: 30px;
+}
+
+.box {
+	margin: 0;
+	padding: 0;
+	height: 80%;
+	margin-left: 2%;
+	margin-top: 1%;
+	padding: 1%;
+	padding-bottom: 0;
+	max-height: 90%;
+}
+
+.PlayerHUD {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid ;
+	font-family: '8BIT WONDER';
+	background-color: black;
+	border-radius: 15px;
+}
+
+.PlayerHUD h1 {
+	font-size: 20px;
+	display: inline-block;
+	margin-top : 15px;
+	margin-bottom : 15px;
+}
+
+.PlayerHUD #toggleButtons {
+	margin-top : 10px;
+	margin-right : 10px;
+}
+
+.PlayerHUD #toggleButtons .button {
+	height: 60px;
+	width: 130px;
+	border-radius: 15px;
+	font-family: '8BIT WONDER';
+}
+
+.PlayerHUD h3 {
+	font-size: 20px;
+	margin-top : 0px;
+	margin-bottom : 15px;
+}
+
+.PlayerHUD h4 {
+	font-size: 20px;
+
+	margin-top : 15px;
+	margin-bottom : 15px;
+}
+
+.PlayerHUD h5 {
+	font-size: 20px;
+	margin-top : 15px;
+	margin-bottom : 15px;
+}
+
+.PlayerHUD h6 {
+	font-size: 20px;
+	margin-top : 15px;
+	margin-bottom : 15px;
+}
+
+.SceneContainer {
+	border: 2px solid;
+	display: inline-block;
+	width: 100%;
+	max-width: 1100px;
+	height: 60%;
+	border-radius: 15px;
+	background-color: black;
+	margin-left: 1.5% ;
+
+}
+
+.buttons {
+	display: inline-flex;
+	text-align: center;
+	margin-top: 2%;
+	border-right: 10%;
+	height: 100px;
+	width: 500px;
+}
+
+
+.button-display {
+	display: inline-block;
+	outline: 2px solid black;
+	margin-right: 5%;
+	height: 30%;
+	width: 50%;
+	background-color: red;
+}
+
+.SceneContainer #level-image {
+	display: inline-block;
+	width: 100%;
+	height: 90%;
+}
+
+.SceneContainer #level-text {
+	text-align: center;
+}
+
+#level-title {
+	display: inline;
+}
+
+#contains-game {
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 120%;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.state-hide {
+	visibility: hidden;
+}
+
+.state-view {
+	visibility: visible;
+}
+
+input::-webkit-calendar-picker-indicator {
+              opacity: 100;
+           }
+
